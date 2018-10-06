@@ -1,0 +1,117 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+<div class="container-fluid">
+<h3>Working Hours: *</h3>
+
+
+
+<div class="row">
+    <div class="block">
+        <p>Mon</p>
+        <label for="MonFrom">From</label>
+        <input type="text" class="form-control" id="MonFrom" placeholder="Hour">
+        <label for="MonTo">To</label>
+        <input type="text" class="form-control" id="MonTo"  placeholder="Hour">
+        <input class="form-check-input" type="checkbox" value="" id="Mon24">
+        <label class="form-check-label" for="Mon24">
+            Available 24 hours?
+        </label>
+    </div>
+    <div class="block">
+        <p>Tue</p>
+        <label for="MonFrom">From</label>
+        <input type="text" class="form-control" id="TueFrom" placeholder="Hour">
+        <label for="MonTo">To</label>
+        <input type="text" class="form-control" id="TueTo"  placeholder="Hour">
+        <input class="form-check-input" type="checkbox" value="" id="Tue24">
+        <label class="form-check-label" for="Tue24">
+            Available 24 hours?
+        </label>
+    </div>
+    <div class="block">
+        <p>Wed</p>
+        <label for="MonFrom">From</label>
+        <input type="text" class="form-control" id="WedFrom" placeholder="Hour">
+        <label for="MonTo">To</label>
+        <input type="text" class="form-control" id="WedTo"  placeholder="Hour">
+        <input class="form-check-input" type="checkbox" value="" id="Wed24">
+        <label class="form-check-label" for="Wed24">
+            Available 24 hours?
+        </label>
+    </div>
+    <div class="block">
+        <p>Thu</p>
+        <label for="MonFrom">From</label>
+        <input type="text" class="form-control" id="ThuFrom" placeholder="Hour">
+        <label for="MonTo">To</label>
+        <input type="text" class="form-control" id="ThuTo"  placeholder="Hour">
+        <input class="form-check-input" type="checkbox" value="" id="Thu24">
+        <label class="form-check-label" for="Thu24">
+            Available 24 hours?
+        </label>
+    </div>
+    <div class="block">
+        <p>Fri</p>
+        <label for="MonFrom">From</label>
+        <input type="text" class="form-control" id="FriFrom" placeholder="Hour">
+        <label for="MonTo">To</label>
+        <input type="text" class="form-control" id="FriTo"  placeholder="Hour">
+        <input class="form-check-input" type="checkbox" value="" id="Fri24">
+        <label class="form-check-label" for="Fri24">
+            Available 24 hours?
+        </label>
+    </div>
+    <div class="block">
+        <p>Sat</p>
+        <label for="MonFrom">From</label>
+        <input type="text" class="form-control" id="SatFrom" placeholder="Hour">
+        <label for="MonTo">To</label>
+        <input type="text" class="form-control" id="SatTo"  placeholder="Hour">
+        <input class="form-check-input" type="checkbox" value="" id="Sat24">
+        <label class="form-check-label" for="Sat24">
+            Available 24 hours?
+        </label>
+    </div>
+    <div class="block">
+        <p>Sun</p>
+        <label for="MonFrom">From</label>
+        <input type="text" class="form-control" id="SunFrom" placeholder="Hour">
+        <label for="MonTo">To</label>
+        <input type="text" class="form-control" id="SunTo"  placeholder="Hour">
+        <input class="form-check-input" type="checkbox" value="" id="Sun24">
+        <label class="form-check-label" for="Sun24">
+            Available 24 hours?
+        </label>
+    </div>
+</div>
+<br>
+<button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+    <br><br>
+    <h5>Notes:</h5>
+    <p>Since the focus of the interview is rails, most of the focus is on the backend</p>
+    <p>Ideally when the 24hour checkbox is clicked, the inputs would be disabled in a real world situation.</p>
+    <p>Also it would be better to use html5 input type time, since it makes it easier to avoid errors.</p>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
